@@ -1,0 +1,33 @@
+.card-title{
+    text-align: center;
+    font-family: "Cormorant Garamond";
+    font-size: 43px;
+    font-weight: 700;
+}
+
+.line{
+    border: 1px solid rgb(175, 172, 172) ;
+}
+
+h6{
+    text-align: center;
+    font-family: 'Montserrat'!important;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-text{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.address{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Montserrat'!important;
+}

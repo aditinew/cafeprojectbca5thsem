@@ -1,0 +1,72 @@
+ <br>
+
+  <div class="container-contact100">
+   
+    <div class="wrap-contact100">
+        <div class="contact100-form-title">
+
+            <h3 class="register">Select a Date & Book Now</h3>
+  <h1>------we will confirm order via Email or Phone------</h1>
+        </div>
+
+        <form class="contact100-form validate-form">
+            <div class="wrap-input100 validate-input" data-validate="Name is required">
+                <span class="label-input100">First Name:</span>
+                <input class="input100" type="text" [(ngModel)]="FirstName" name="FirstName" placeholder="Enter first name">
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100 validate-input" data-validate="Name is required">
+              <span class="label-input100">Last Name:</span>
+              <input class="input100" type="text" [(ngModel)]="LastName" name="LastName" placeholder="Enter last name">
+              <span class="focus-input100"></span>
+          </div>
+
+            <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                <span class="label-input100">Email:</span>
+                <input class="input100" type="text" [(ngModel)]="Email" name="Email" placeholder="Enter email addess">
+                <span class="focus-input100"></span>
+            </div>
+        
+            <div class="wrap-input100 validate-input" data-validate="date is required">
+                <span class="label-input100">Booking Date:</span>
+                <input class="input100" type="text" [(ngModel)]="BookingDate" name="BookingDate" placeholder="Enter your booking date">
+                <span class="focus-input100"></span>
+            </div>
+
+            
+            <div class="wrap-input100 validate-input" data-validate="time is required">
+                <span class="label-input100">Booking Time:</span>
+                <input class="input100" type="text" [(ngModel)]="BookingTime" name="BookingTime" placeholder="Enter your booking time">
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100 validate-input" data-validate="persons is required">
+                    <span class="label-input100">Persons:</span>
+                    <input class="input100" type="text" [(ngModel)]="Persons" name="Persons" placeholder="Enter no. of persons">
+                    <span class="focus-input100"></span>
+                </div>
+
+            <div class="wrap-input100 validate-input" data-validate="Phone is required">
+                <span class="label-input100">Phone:</span>
+                <input class="input100" type="text" [(ngModel)]="Phone" name="Phone" placeholder="Enter phone number">
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100 validate-input" data-validate = "Message is required">
+                <span class="label-input100">Special Request:</span>
+                <textarea class="input100" [(ngModel)]="SpecialRequest" name="SpecialRequest" placeholder="Your Request..."></textarea>
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="container-contact100-form-btn">
+                <button class="contact100-form-btn" (click)="addData()">
+                    <span>
+                        Book Now
+                        <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

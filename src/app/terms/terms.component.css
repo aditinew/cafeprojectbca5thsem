@@ -1,0 +1,31 @@
+.line{
+    border: 1px solid #a6a6a6;
+}
+
+.card{
+    border:0px white;
+    border-radius: 3%;
+    margin-left: 375px;
+}
+
+.card-img-top{
+    height: 200px;
+    width: 100%;
+}
+
+.card-title{
+    text-align: center;
+    font-family: "Cormorant Garamond";
+    font-size: 43px;
+    font-weight: 700;
+}
+
+.card-body{
+    background-color: lightyellow;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.para{
+    text-align: initial;
+}

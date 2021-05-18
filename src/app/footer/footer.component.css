@@ -1,0 +1,34 @@
+footer{
+    background-image: url('../../assets/images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-042.jpg');
+}
+
+.fab{
+    font-size: 90px;
+    color: #555;
+}
+
+.fab:hover{
+    font-size: 90px;
+    color: #ffffff ;
+}
+
+.logo{
+    height: 110px;
+}
+
+.navbar-nav li a{
+    color:#dc4348;
+    font-size: 100%;
+    font-weight: 550;
+}
+
+.navbar-nav li a:hover{
+    border:1px solid #dc4348;
+    border-radius: 25px;
+    color:#ffffff;
+    background-color: #dc4348;
+}
+
+.nav-item{
+    padding-left: 50px;
+}

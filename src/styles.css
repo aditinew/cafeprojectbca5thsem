@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(../src/assets/images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-042.jpg);
+}

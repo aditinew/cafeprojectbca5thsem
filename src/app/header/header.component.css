@@ -1,0 +1,54 @@
+.row{
+    margin: 0 auto;
+}
+
+header{
+    background-color: #fff;
+}
+
+.middle{
+    position:relative; 
+    text-align: center; 
+    color: #fff;
+}
+
+.main-content-header{
+    position:absolute; 
+    top:50%; 
+    left:50%;
+    transform: translate(-50%,-50%); 
+    z-index:100;
+}
+
+h1{
+    font-family: "Cormorant Garamond";
+    font-size: 48px;
+}
+
+.logo{
+    height:120px;
+    width:auto;
+    float:left;
+    margin-top: 20px;
+}
+
+.navbar-nav{
+    margin-top: 60px;
+}
+
+.navbar-nav li{
+    margin-left: 40px;
+}
+
+.navbar-nav li a{
+    color:#dc4348;
+    font-size: 100%;
+    font-weight: 550;
+}
+
+.navbar-nav li a:hover{
+    border:1px solid #dc4348;
+    border-radius: 25px;
+    color:#ffffff;
+    background-color: #dc4348;
+}
